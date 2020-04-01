@@ -1,0 +1,189 @@
+*
+{
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    font-family: cinzel decorative;;
+}
+
+.menu > ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0% auto;
+}
+
+.menu
+{
+    width:100%;
+	background-color:black;
+    text-align:center;
+}
+.menu li
+{
+	margin:0%;
+	list-style:none;
+	text-align:left;
+}
+.menu a
+{
+	transition:all linear 0.3s;
+    color:white;
+	background-color:black;
+	text-decoration:none;
+}
+.menu > ul > li 
+{
+    display:inline-block;
+    position:relative;
+    font-size:20px;
+	
+}
+.menu > ul > li > a 
+{
+    padding:10px 40px;
+    display:inline-block;
+	
+    
+}
+.menu > ul > li:hover > a, .menu > ul > .current-item > a
+ {
+    background-color: #333333;
+}
+.menu li:hover .sub-menu 
+{
+    z-index:1;
+    display:block;
+}
+.sub-menu {
+    width:162%;
+    padding:0% 0%;
+    position:absolute;
+    top:100%;
+    left:0%;
+    display:none;
+    transition: linear 0.15s;
+    background:transparent;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16;
+	color:white;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background-color: #333333;
+}
+
+body
+{
+    background-size:cover;
+    
+}
+#div1
+{
+    height:100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header
+{
+     background-color:#ffffff;
+     padding: 7px;
+}
+
+a
+{
+    text-decoration: none;  
+    color: #ffffff;
+}
+.article
+{
+    margin: 0%;
+    color: #ffffff;
+}
+* 
+{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: Arial;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+h3
+{
+    font-family: cinzel decorative;
+    color: black;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
